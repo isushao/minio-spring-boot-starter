@@ -54,9 +54,9 @@ MinIO使用密钥管理系统（KMS）支持SSE-S3。如果客户端请求SSE-S3
 
 ```yaml
 minio:
-	endpoint:
-	access-key:
-	secret-key:
+  endpoint:
+  access-key:
+  secret-key:
 ```
 
 引入接口：MinioService，使用其中方法注意事项：有可能会遇到okhttp、kotlin-stdlib版本冲突等问题，已经有okhttp依赖的可以忽略，没有kotlin-stdlib的需要添加依赖
